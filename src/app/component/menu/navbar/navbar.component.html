@@ -1,0 +1,39 @@
+<nav class="sb-topnav navbar navbar-expand navbar-light bg-white shadow">
+    <div class="container-fluid"> <!-- Wrap the contents in a container for alignment -->
+
+        <!-- Brand/logo -->
+        <a class="navbar-brand" (click)="home()">
+            <img src="assets/images/lgm-logo.png" alt="Logo">
+            MSNR Trace
+        </a>
+
+        <!-- Sidebar Toggle Button -->
+        <button class="btn btn-link btn-sm order-1 order-lg-0 me-2 me-lg-0" id="sidebarToggle" href="">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Navbar Menu -->
+        <ul class="navbar-nav ms-auto pe-4">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <i class="fas fa-user fa-fw"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" [routerLink]="['/erp/profile']" id="kemas">Kemaskini Profil</a></li>
+                    <!--<li>
+                        <hr class="dropdown-divider" />
+                    </li>
+                     <li><a class="dropdown-item" [routerLink]="['/initial/activity']" id="kemas">Pemilihan Aktiviti</a>
+                    </li> -->
+                    <li>
+                        <hr class="dropdown-divider" />
+                    </li>
+                    <li><a class="dropdown-item" (click)="logout()">Log Keluar</a></li>
+
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+</nav>

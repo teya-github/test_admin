@@ -1,0 +1,53 @@
+.label_bi{
+    font-style: italic;
+    font-size: 11px;
+    /* padding-left: 4px; */
+    /* text-align: right; */
+    }
+
+.label_title{
+    font-size: 12px;
+}
+ 
+.button-right{
+    text-align: right;
+}
+
+div.sub_topic_top {
+  font-size: 13PX;
+  color: white;
+  background-color:rgb(47,105,78);
+  /* background-color: rgb(221, 221, 221); */
+  height: 30px;
+  font-weight: 500;
+  padding: 4px;
+  padding-left: 15px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+div.sub_topic {
+  font-size: 13PX;
+  color: white;
+  background-color:rgb(47,105,78);
+  /* background-color: rgb(221, 221, 221); */
+  height: 30px;
+  font-weight: 500;
+  padding: 4px;
+  padding-left: 15px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.radio-group {
+    display: flex; /* Use flexbox for horizontal arrangement */
+  }
+  
+  .radio-inline {
+    display: inline-flex; /* Make each radio button an inline flex container */
+    align-items: center; /* Center content vertically */
+    margin-right: 15px; /* Add some spacing between radio buttons */
+  }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+
